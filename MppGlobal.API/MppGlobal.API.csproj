@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MppGlobal.BLL\MppGlobal.BLL.csproj" />
+    <ProjectReference Include="..\MppGlobal.Contracts\MppGlobal.Contracts.csproj" />
+    <ProjectReference Include="..\MppGlobal.DTO\MppGlobal.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

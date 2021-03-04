@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\MppGlobal.Core\MppGlobal.Core.csproj" />
+    <ProjectReference Include="..\MppGlobal.Contracts\MppGlobal.Contracts.csproj" />
+    <ProjectReference Include="..\MppGlobal.DTO\MppGlobal.DTO.csproj" />
+    <ProjectReference Include="..\MppGlobal.Models\MppGlobal.Models.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
